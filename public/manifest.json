@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Rupiah Fractions",
+  "name": "Rupiah Fractions App for Tokopedia Frontend Developer Test",
   "icons": [
     {
       "src": "favicon.ico",
