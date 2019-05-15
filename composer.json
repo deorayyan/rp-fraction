@@ -1,0 +1,16 @@
+{
+    "name": "deoaqlirayyan/rp-fractions",
+    "type": "project",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Deo Aqli Rayyan",
+            "email": "deoaqlirayyan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+}
