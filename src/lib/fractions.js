@@ -16,6 +16,7 @@ export default input => {
         2000,
         1000,
         500,
+        200,
         100,
         50
     ];
@@ -32,6 +33,7 @@ export default input => {
     // Loop balance until 0
     while (balance > 0) {
         // Get fraction that the value less equal the balance
+        // eslint-disable-next-line
         const fraction = fractions.find(val => val <= balance);
 
         // Check if has fraction or else just push remaining balance

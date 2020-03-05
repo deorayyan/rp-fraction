@@ -1,2 +1,36 @@
-@include font-face('Montserrat', '../fonts/Montserrat-Regular', 300, normal, ttf);
-@include font-face('Montserrat', '../fonts/Montserrat-Bold', 700, normal, ttf);
+@include font-face(
+    'GoogleSans',
+    '../fonts/GoogleSans-Medium',
+    600,
+    normal,
+    ttf
+);
+@include font-face(
+    'GoogleSans',
+    '../fonts/GoogleSans-MediumItalic',
+    600,
+    italic,
+    ttf
+);
+@include font-face('GoogleSans', '../fonts/GoogleSans-Bold', 700, normal, ttf);
+@include font-face(
+    'GoogleSans',
+    '../fonts/GoogleSans-BoldItalic',
+    700,
+    italic,
+    ttf
+);
+@include font-face(
+    'GoogleSans',
+    '../fonts/GoogleSans-Regular',
+    400,
+    normal,
+    ttf
+);
+@include font-face(
+    'GoogleSans',
+    '../fonts/GoogleSans-Italic',
+    400,
+    italic,
+    ttf
+);

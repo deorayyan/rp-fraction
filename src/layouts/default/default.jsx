@@ -15,13 +15,6 @@ import '../../resources/scss/app.scss';
 
 export default props => (
     <main className="App">
-        <div className="container">
-            <div className="row pt-5 mt-5">
-                <div className="col-12 text-center">
-                    <img src="/assets/images/logo.png" alt=""/>
-                </div>
-            </div>
-            {props.children}
-        </div>
+        <div className="container-fluid">{props.children}</div>
     </main>
 );
